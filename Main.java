@@ -133,7 +133,8 @@ public class Main
     Clothing c2 = new Clothing(4, "Shirt", 2000.24, "Small");
     
     Inventory i = new Inventory();
-    
+
+    // adding products to inventory
     i.addProduct(e1);
     i.addProduct(e2);
     i.addProduct(c1);
@@ -142,6 +143,7 @@ public class Main
     System.out.println("\n Current Products in Inventory \n");
     i.displayInventory();
 
+    // removing products from inventory
     i.removeProduct(e2);
     i.removeProduct(c1);
 
